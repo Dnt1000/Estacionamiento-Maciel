@@ -34,20 +34,20 @@ El proyecto busca ofrecer una experiencia digital sencilla e intuitiva, permitie
 
 ## 📂 Estructura del proyecto
 
+```text
 AutocentroMaciel/
 │
 ├── index.html
 │
 ├── assets/
 │   ├── img/
-│   │   ├── banner1.jpeg
-│   │   ├── banner2.jpeg
-│   │   ├── ...
+│   │   └── Recursos gráficos e imágenes del sitio
 │   │
 │   ├── script.js
 │   └── estilo.css
 │
 └── README.md
+```
 
 ## 🚀 Instalación y ejecución
 
