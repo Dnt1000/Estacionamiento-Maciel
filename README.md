@@ -49,24 +49,6 @@ AutocentroMaciel/
 └── README.md
 ```
 
-## 🚀 Instalación y ejecución
-
-1. Clonar el repositorio:
-
-```bash
-git clone URL_DEL_REPOSITORIO
-```
-
-2. Ingresar a la carpeta del proyecto:
-
-```bash
-cd Autocentro-Maciel
-```
-
-3. Abrir `index.html` en el navegador o utilizar una extensión como Live Server en Visual Studio Code.
-
-No requiere instalación de dependencias ni configuración de un servidor backend para su funcionamiento actual.
-
 ## 📱 Compatibilidad
 
 El sitio está diseñado para funcionar en:
