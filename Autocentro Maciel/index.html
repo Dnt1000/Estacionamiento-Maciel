@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8" />
+<title>Autocentro Maciel | Lavadero y Parking 24 hs en Montevideo</title>
+<meta name="description" content="Autocentro Maciel ofrece lavadero premium, detailing, lavado de motor y estacionamiento 24 horas en Montevideo. Servicio profesional. Consultá por WhatsApp.">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" type="image/png" href="/car.png">
+<link rel="shortcut icon" href="/car.png">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+<link rel="stylesheet" href="estilo.css">
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4702471547537714" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+<div class="navbar">
+  <div class="logo">
+    <h1 class="logo-text">Estacionamiento y Lavadero Maciel</h1>
+  </div>
+<div class="nav-links">
+  <a href="#inicio">Inicio</a>
+  <a href="#promociones">Promociones</a>
+  <a href="#servicios">Servicios</a>
+  <a href="#contacto">Contacto</a>
+</div>
+</div>
+
+  <section id="inicio">
+    <div class="slider" data-auto="6000">
+      <div class="slides">
+        <img src="banner1.jpeg" alt="Banner 1" class="lightbox-trigger" />
+        <img src="banner2.jpeg" alt="Banner 2" class="lightbox-trigger" />
+        <img src="banner3.jpeg" alt="Banner 3" class="lightbox-trigger" />
+      </div>
+      <div class="dots"></div>
+    </div>
+  </section>
+
+<section id="promociones">
+  <h2 class="titulo-seccion">Promociones</h2>
+
+<!-- Slider clásico (PC / horizontal) -->
+<div class="promo-slider">
+  <img src="promo1.jpg" class="lightbox-trigger">
+  <img src="promo2.jpg" class="lightbox-trigger">
+  <img src="promo3.jpg" class="lightbox-trigger">
+  <img src="promo4.jpg" class="lightbox-trigger">
+</div>
+
+<!-- Swiper (celular vertical) -->
+<div class="promo-swiper swiper">
+  <div class="swiper-wrapper">
+    <div class="swiper-slide"><img src="promo1.jpg" class="lightbox-trigger"></div>
+    <div class="swiper-slide"><img src="promo2.jpg" class="lightbox-trigger"></div>
+    <div class="swiper-slide"><img src="promo3.jpg" class="lightbox-trigger"></div>
+    <div class="swiper-slide"><img src="promo4.jpg" class="lightbox-trigger"></div>
+  </div>
+  <div class="swiper-pagination"></div>
+</div>
+</section>
+
+
+<section id="servicios">
+  <h2 class="titulo-seccion">Servicios</h2>
+
+  <div class="servicios-container">
+
+<div class="servicio-banner">
+  <h3 class="servicio-titulo">Parking</h3>
+
+  <div class="servicio-row">
+    <div class="slider-servicio" data-auto="7000">
+      <div class="slides-servicio">
+        <img src="parking1.jpg" class="lightbox-trigger">
+        <img src="parking2.jpeg" class="lightbox-trigger">
+        <img src="parking3.jpeg" class="lightbox-trigger">
+      </div>
+      <div class="dots"></div>
+    </div>
+  </div>
+<div class="servicio-bloque expandible parking-bloque">
+
+  <button
+    type="button"
+    id="btn-toggle-parking"
+    class="toggle-btn"
+  >
+    Ver parking
+  </button>
+
+  <div class="contenido-expandido">
+
+    <div class="parking-tabs">
+      <button
+        type="button"
+        class="section-btn active"
+        data-tipo="hora"
+      >
+        Hora
+      </button>
+
+      <button
+        type="button"
+        class="section-btn"
+        data-tipo="dia"
+      >
+        Día
+      </button>
+
+      <button
+        type="button"
+        class="section-btn"
+        data-tipo="mes"
+      >
+        Mes
+      </button>
+    </div>
+
+<ul class="parking-list" id="lista-hora">
+  <li><span class="servicio">Hora Bicicleta</span><span class="precio">$50</span></li>
+  <li><span class="servicio">Hora Moto</span><span class="precio">$90</span></li>
+  <li><span class="servicio">Hora Auto Chico</span><span class="precio">$120</span></li>
+  <li><span class="servicio">Hora Auto Mediano (Hatch)</span><span class="precio">$140</span></li>
+  <li><span class="servicio">Hora Auto Grande</span><span class="precio">$160</span></li>
+  <li><span class="servicio">Hora Camioneta Chica</span><span class="precio">$160</span></li>
+  <li><span class="servicio">Hora Camioneta Mediana</span><span class="precio">$180</span></li>
+  <li><span class="servicio">Hora Camioneta Grande</span><span class="precio">$180</span></li>
+</ul>
+
+<ul class="parking-list" id="lista-dia">
+  <li><span class="servicio">Día Bicicleta</span><span class="precio">$250</span></li>
+  <li><span class="servicio">Día Moto</span><span class="precio">$450</span></li>
+  <li><span class="servicio">Día Auto Chico</span><span class="precio">$700</span></li>
+  <li><span class="servicio">Día Auto Mediano</span><span class="precio">$700</span></li>
+  <li><span class="servicio">Día Auto Grande</span><span class="precio">$800</span></li>
+  <li><span class="servicio">Día Camioneta Chica</span><span class="precio">$800</span></li>
+  <li><span class="servicio">Día Camioneta Mediana</span><span class="precio">$850</span></li>
+  <li><span class="servicio">Día Camioneta Grande</span><span class="precio">$900</span></li>
+</ul>
+
+<ul class="parking-list" id="lista-mes">
+  <li><span class="servicio">Auto 24 hs</span><span class="precio">$4800</span></li>
+  <li><span class="servicio">Camioneta 24 hs</span><span class="precio">$5000</span></li>
+
+  <li><span class="servicio">Auto horario oficina</span><span class="precio">$3800</span></li>
+  <li><span class="servicio">Camioneta horario oficina</span><span class="precio">$4000</span></li>
+<br>
+<li>
+  <span class="servicio">
+    Auto horario nocturno<br>
+ (Lun–Vie 18 a 8 + finde libre)
+  </span>
+  <span class="precio">$3800</span>
+</li>
+<br>
+<li>
+  <span class="servicio">
+    Camioneta horario nocturno<br>
+    (Lun–Vie 18 a 8 + finde libre)
+  </span>
+  <span class="precio">$4000</span>
+</li>
+  <br>
+  <li><span class="servicio">Moto 24 hs</span><span class="precio">$2400</span></li>
+<br>
+  <li><span class="servicio">Descuento lavados/servicios</span><span class="precio">25% OFF</span></li>
+</ul>
+<br>
+
+<button type="button" id="btn-consultar" class="menu-cta">
+  Consultar parking
+</button>
+
+  </div>
+</div>
+        </div>
+ <div class="servicio-banner">
+      <h3 class="servicio-titulo">Lavadero</h3>
+
+      <div class="servicio-row">
+        <div class="slider-servicio" data-auto="6000">
+          <div class="slides-servicio">
+            <img src="lavadero1.jpg" class="lightbox-trigger">
+            <img src="lavadero2.jpeg" class="lightbox-trigger">
+            <img src="lavadero3.jpeg" class="lightbox-trigger">
+            <img src="lavadero4.jpeg" class="lightbox-trigger">
+          </div>
+          <div class="dots"></div>
+        </div>
+      </div>
+
+      <div class="servicio-bloque expandible">
+        <button type="button" class="toggle-btn">Lavado Completo</button>
+        <div class="contenido-expandido">
+          <ul class="lista-lavados">
+
+<li class="lavado-indefinido">
+  <span>
+    🧼 No estoy seguro del vehículo  
+    <small style="display:block; opacity:.7;">Te lo definimos por WhatsApp</small>
+  </span>
+
+  <button type="button" class="seleccionar-btn" data-lavado="indefinido">
+    Consultar
+  </button>
+
+</li>
+
+  <li>
+    <div class="item-info">
+      <span>Lavado Auto Chico</span>
+      <span>$500</span>
+    </div>
+    <button type="button" class="seleccionar-btn" data-lavado="auto-chico">Seleccionar</button>
+  </li>
+
+  <li>
+    <div class="item-info">
+      <span>Lavado Auto Mediano (Hatch)</span>
+      <span>$550</span>
+    </div>
+    <button type="button" class="seleccionar-btn" data-lavado="auto-mediano">Seleccionar</button>
+  </li>
+
+  <li>
+    <div class="item-info">
+      <span>Lavado Auto Grande (Sedan)</span>
+      <span>$650</span>
+    </div>
+    <button type="button" class="seleccionar-btn" data-lavado="auto-grande">Seleccionar</button>
+  </li>
+
+  <li>
+    <div class="item-info">
+      <span>Lavado Camioneta Chica</span>
+      <span>$650</span>
+    </div>
+    <button type="button" class="seleccionar-btn" data-lavado="camioneta-chica">Seleccionar</button>
+  </li>
+
+  <li>
+    <div class="item-info">
+      <span>Lavado Camioneta SUV</span>
+      <span>$750</span>
+    </div>
+    <button type="button" class="seleccionar-btn" data-lavado="camioneta-suv">Seleccionar</button>
+  </li>
+
+  <li>
+    <div class="item-info">
+      <span>Lavado 4x4 Doble Cabina</span>
+      <span>$850</span>
+    </div>
+    <button type="button" class="seleccionar-btn" data-lavado="4x4">Seleccionar</button>
+  </li>
+
+  <li>
+    <div class="item-info">
+      <span>Lavado Furgón Van</span>
+      <span>$950</span>
+    </div>
+    <button type="button" class="seleccionar-btn" data-lavado="furgon-van">Seleccionar</button>
+  </li>
+
+  <li>
+    <div class="item-info">
+      <span>Lavado Camión Van</span>
+      <span>$1100</span>
+    </div>
+    <button type="button" class="seleccionar-btn" data-lavado="camion-van">Seleccionar</button>
+  </li>
+
+  <li>
+    <div class="item-info">
+      <span>Lavado Moto</span>
+      <span>$350</span>
+    </div>
+    <button type="button" class="seleccionar-btn"data-lavado="moto">Seleccionar</button>
+  </li>
+
+  <li>
+    <div class="item-info">
+      <span>Lavado Exterior Auto</span>
+      <span>$300</span>
+    </div>
+    <button type="button" class="seleccionar-btn" data-lavado="exterior">Seleccionar</button>
+  </li>
+</ul>
+        </div>
+      </div>
+    </div>
+
+ <div class="servicio-banner">
+      <h3 class="servicio-titulo">Detailing</h3>
+
+      <div class="servicio-row">
+        <div class="slider-servicio" data-auto="6000">
+          <div class="slides-servicio">
+            <img src="detailing1.jpg" class="lightbox-trigger">
+            <img src="detailing2.jpg" class="lightbox-trigger">
+            <img src="detailing3.jpg" class="lightbox-trigger">
+          </div>
+          <div class="dots"></div>
+        </div>
+      </div>
+
+      <div class="servicio-bloque expandible">
+<button type="button" class="toggle-btn"> Servicios de Detailing</button>
+
+        <div class="contenido-expandido">
+          <ul class="lista-detailing">
+        <li>
+          <span>Pulido</span>
+          <button type="button" class="seleccionar-detail-btn" data-detailing="Pulido">Seleccionar</button>
+        </li>
+
+        <li>
+          <span>Limpieza profunda</span>
+          <button type="button" class="seleccionar-detail-btn" data-detailing="Limpieza Profunda">Seleccionar</button>
+        </li>
+
+        <li>
+          <span>Limpieza de tapizado</span>
+          <button type="button" class="seleccionar-detail-btn" data-detailing="Limpieza de Tapizado">Seleccionar</button>
+        </li>
+
+        <li>
+          <span>Lavado de motor</span>
+          <button type="button" class="seleccionar-detail-btn" data-detailing="Lavado de Motor">Seleccionar</button>
+        </li>
+
+        <li>
+          <span>Pulido de ópticos</span>
+          <button type="button" class="seleccionar-detail-btn" data-detailing="Pulido de ópticos">Seleccionar</button>
+        </li>
+      </ul>
+
+      <a href="#" id="btn-detail-consultar" class="btn-whatsapp" target="_blank">
+        Consultar por WhatsApp
+      </a>
+
+    </div>
+  </div>
+</div>
+      </div>
+  </section>
+
+  <section id="contacto">
+    <h2 class="titulo-seccion">Contacto</h2>
+
+    <div class="contact-container">
+      <div class="contact-buttons">
+        <a href="https://maps.google.com/?q=Guaraní+1384+Montevideo" target="_blank">
+          <img src="map.png"> Guaraní 1384
+        </a>
+        <a href="tel:29158244">
+          <img src="phone.png"> 2915 8244
+        </a>
+        <a href="https://wa.me/59895107054" target="_blank">
+          <img src="WPPME.png"> +598 95 107 054
+        </a>
+        <a href="mailto:autocentromaciel@gmail.com">
+          <img src="mail.png"> autocentromaciel@gmail.com
+        </a>
+        <a href="https://www.instagram.com/autocentromaciel" target="_blank">
+          <img src="IGME.png"> @autocentromaciel
+        </a>
+      </div>
+
+      <div class="contact-map">
+        <iframe
+          src="https://www.google.com/maps?q=Guaraní+1384+Montevideo&output=embed"
+          allowfullscreen
+          loading="lazy"
+        ></iframe>
+      </div>
+    </div>
+  </section>
+
+<section class="seo-zonas">
+  <p>
+    Estacionamiento y Lavadero Maciel en 
+    <strong>Ciudad Vieja y Centro de Montevideo</strong>. 
+    Parking 24 hs para autos, camionetas y motos. 
+    Lavadero, detailing y servicios profesionales cerca de 
+    oficinas, comercios y zonas turísticas.
+  </p>
+</section>
+
+<footer>
+  © <span id="year"></span> Autocentro Maciel - Dante 
+</footer>
+
+<div class="lightbox" id="lightbox">
+  <button type="button" class="lightbox-close" id="lightbox-close">✕</button>
+
+  <img src="" id="lightbox-img">
+
+<button type="button" id="lightbox-whatsapp" class="btn-whatsapp">
+  Consultar por WhatsApp
+</button>
+
+</div>
+<div id="popupParking" class="popup">
+  <div class="popup-content">
+    <span id="popup-title">Consulta</span>
+
+    <div id="parking-preview" class="parking-preview">
+      Completá los datos para ver el resumen
+    </div>
+
+    <label>
+      ¿Cuándo?
+      <select id="tipo-dia" onchange="cambiarTipoDia(); actualizarTextoParking();">
+        <option value="aprox">Día aproximado</option>
+        <option value="fecha">Elegir día específico</option>
+      </select>
+    </label>
+
+    <label id="dia-aproximado">
+      Día aproximado
+      <select id="parking-dia">
+        <option value="">No Importa</option>
+        <option value="Hoy">Hoy</option>
+        <option value="Mañana">Mañana</option>
+        <option value="Esta semana">Esta semana</option>
+        <option value="Fin de semana">Fin de semana</option>
+      </select>
+    </label>
+
+    <label id="dia-fecha" style="display:none;">
+      Día específico
+      <input type="date" id="parking-fecha">
+    </label>
+
+    <label>
+      Hora aproximada
+      <input type="time" id="parking-hora">
+    </label>
+    <div id="parking-extra">
+
+</div>
+    <div id="lavado-extra">
+<label>
+  Tipo de lavado
+  <select id="lavado-tipo">
+    <option value="">No seleccionado</option>
+    <option value="auto-chico">Auto chico</option>
+    <option value="auto-mediano">Auto mediano (Hatch)</option>
+    <option value="auto-grande">Auto grande (Sedan)</option>
+    <option value="camioneta-chica">Camioneta chica</option>
+    <option value="camioneta-suv">Camioneta SUV</option>
+    <option value="4x4">4x4 doble cabina</option>
+    <option value="furgon-van">Furgón Van</option>
+    <option value="camion-van">Camion Van</option>
+    <option value="moto">Moto</option>
+    <option value="exterior">Lavado exterior</option>
+  </select>
+</label>
+</div>
+    <p id="parking-info" class="parking-info-text">
+      Consulta libre – no es obligatorio elegir fecha ni hora
+    </p>
+
+    <div class="popup-actions">
+      <button type="button" id="popup-cerrar">Cancelar</button>
+      <button type="button" id="popup-enviar">Consultar</button>
+    </div>
+  </div>
+</div>
+
+<script src="script.js" defer></script>
+
+</body>
+</html>
+
+<!-- 
+
+██████╗ ███╗  ██╗████████╗
+██╔══██╗████╗░██║╚══██╔══╝
+██║░░██║██╔██╗██║░░░██║░░░
+██║░░██║██║╚████║░░░██║░░░
+██████╔╝██║░╚███║░░░██║░░░
+╚═════╝░╚═╝░░╚══╝░░░╚═╝░░░ 
+
+-->
